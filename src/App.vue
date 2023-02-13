@@ -3,6 +3,7 @@
     <HeaderPoke />
     <SearchPokemon @search_PokeIdName="getPokemons" />
     <PokemonList :pokemons="pokemons" :text="text" v-show="!loading" />
+    <PokeFooter />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import { defineComponent } from "vue";
 import HeaderPoke from "./components/HeaderPoke.vue";
 import PokemonList from "./components/PokemonList.vue";
 import SearchPokemon from "./components/SearchPokemon.vue";
+import PokeFooter from "./components/Footer.vue";
 
 import type { IPokemon, IEvolutionChain } from "./interface/interface";
 
@@ -99,6 +101,7 @@ export default defineComponent({
     HeaderPoke,
     SearchPokemon,
     PokemonList,
+    PokeFooter,
   },
   data() {
     return {
