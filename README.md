@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e3ae8969-fe26-4114-ae3d-ec979964f84d/deploy-status)](https://app.netlify.com/sites/pokedex-challenge-nkyu/deploys)
 # pokedex-challenge
 
 This template should help get you started developing with Vue 3 in Vite.
