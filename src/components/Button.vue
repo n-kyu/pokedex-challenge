@@ -36,7 +36,6 @@ export default defineComponent({
 <style scoped lang="scss">
 button {
   padding: 10px;
-
   color: #fff;
   font-size: 1.2rem;
   border: none;
@@ -47,5 +46,9 @@ button {
     cursor: pointer;
     background-color: rgb(42, 117, 187);
   }
+  
+  @media (max-width: 450px) {
+      width: 100%;
+    }
 }
 </style>

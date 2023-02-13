@@ -108,7 +108,6 @@ article {
 
   @mixin ul-style {
     max-width: 300px;
-
     width: 100%;
     margin: 0;
     padding: 0;
@@ -134,13 +133,11 @@ article {
     li {
       width: 45%;
       text-align: left;
-
+      font-weight: 700;
       @include flex-space-between();
 
-      font-weight: 700;
-
       span {
-        font-weight: 300;
+        font-weight: 400;
       }
     }
   }
@@ -169,7 +166,7 @@ article {
       font-weight: 700;
 
       span {
-        font-weight: 300;
+        font-weight: 400;
       }
     }
 

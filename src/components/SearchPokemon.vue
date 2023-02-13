@@ -50,13 +50,17 @@ export default defineComponent({
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: 450px) {
+    flex-direction: column;
+  }
 }
 .container {
   width: 100%;
   padding: 2rem 0;
 
   @include flex-center();
-  background-color: rgb(37, 57, 107);  
+  background-color: rgb(37, 57, 107);
   .poke_gif {
     margin: 10px;
   }
@@ -66,7 +70,7 @@ export default defineComponent({
     gap: 8px;
     @include flex-center();
 
-    @media (max-width:767px) {
+    @media (max-width: 767px) {
       width: 100%;
     }
     input {
@@ -78,6 +82,8 @@ export default defineComponent({
       font-size: 1.2rem;
     }
   }
+  @media (max-width: 450px) {
+    padding: 2rem 1rem;
+  }
 }
 </style>
-
