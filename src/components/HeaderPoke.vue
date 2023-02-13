@@ -38,6 +38,7 @@
           </svg></div
       ></a>
     </div>
+    <span>Caso a imagem não carregue, procure novamente pelo pokémon</span>
   </header>
 </template>
 
@@ -55,6 +56,10 @@ export default {
 header {
   padding: 1rem 0;
   color: white;
+
+  span {
+    font-size: 12px;
+  }
 }
 
 .socials {

@@ -72,6 +72,7 @@ export default defineComponent({
 
     @media (max-width: 767px) {
       width: 100%;
+      padding: 2rem 1rem;
     }
     input {
       width: 100%;
@@ -81,9 +82,6 @@ export default defineComponent({
       color: #2c3e50;
       font-size: 1.2rem;
     }
-  }
-  @media (max-width: 450px) {
-    padding: 2rem 1rem;
   }
 }
 </style>
