@@ -43,7 +43,7 @@
 
 <script lang="ts">
 export default {
-  name: "HeaderPokedex",
+  name: "HeaderPoke",
   props: {
     title: String,
     showAddTask: Boolean,

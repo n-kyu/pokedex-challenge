@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header />
+    <HeaderPoke />
     <SearchPokemon @search_PokeIdName="getPokemons" />
     <PokemonList :pokemons="pokemons" :text="text" v-show="!loading" />
   </div>
@@ -9,7 +9,7 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 
-import Header from "./components/Header.vue";
+import HeaderPoke from "./components/HeaderPoke.vue";
 import PokemonList from "./components/PokemonList.vue";
 import SearchPokemon from "./components/SearchPokemon.vue";
 
@@ -96,7 +96,7 @@ export default defineComponent({
     },
   },
   components: {
-    Header,
+    HeaderPoke,
     SearchPokemon,
     PokemonList,
   },
@@ -109,7 +109,4 @@ export default defineComponent({
 });
 </script>
 
-<style lang="scss">
-
-</style>
-
+<style lang="scss"></style>
