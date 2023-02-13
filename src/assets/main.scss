@@ -1,6 +1,12 @@
-html {
-  box-sizing: border-box;
+* {
+  transition: 0.3s;
 }
-*, *:before, *:after {
-  box-sizing: inherit;
+
+body {
+  background-color: #41167f;
+}
+
+#app {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
 }

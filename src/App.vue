@@ -1,15 +1,21 @@
 <template>
   <div>
-    <h1>teste</h1>
+    <Header />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
 
+import Header from "./components/Header.vue"
+
 export default defineComponent({
+  name: "App",
   setup() {
     return {};
+  },
+  components: {
+    Header, 
   },
 });
 </script>
