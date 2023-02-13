@@ -28,9 +28,7 @@ export default defineComponent({
 section {
   background-color: rgb(42, 117, 187);
   border: 2px solid black;
-
-  padding: 32px;
-
+  padding: 2rem;
   gap: 2rem;
   display: flex;
   flex-wrap: wrap;
