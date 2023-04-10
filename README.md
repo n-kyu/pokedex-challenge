@@ -23,13 +23,10 @@ The Pokédex has been developed using VueJS and PokeAPI, a RESTful API for retri
 ## Usage
 To use the Pokédex, follow these steps:
 
-1.Visit the homepage to view a list of Pokémon
-
-2.Use the search bar to search for a specific Pokémon
-
-3.Use the filter dropdown to filter Pokémon by type
-
-4.Click on a Pokémon to view detailed information about them
+1. Visit the homepage to view a list of Pokémon
+2. Use the search bar to search for a specific Pokémon
+3. Use the filter dropdown to filter Pokémon by type
+4. Click on a Pokémon to view detailed information about them
 
 ## Contributing
 If you would like to contribute to the Pokédex, please open an issue or pull request on the GitHub repository.
